@@ -15,7 +15,9 @@ email: "jullum@nr.no"
 highlight_name: false
 interests:
 - Explainable AI (XAI) -- Shapley values
-- Point processes 
+- Statistical point processes 
+- Machine learning
+- Model selection
 - R-programming
 organizations:
 - name: Norwegian Computing Center
