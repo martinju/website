@@ -28,3 +28,6 @@ main:
   - name: About me #extend version
     url: 'moreaboutme/'
     weight: 5
+  - name: Publications
+    url: 'papers_test/'
+    weight: 50
