@@ -29,5 +29,5 @@ main:
     url: 'moreaboutme/'
     weight: 5
   - name: Publications
-    url: 'papers_test/'
+    url: 'publication/'
     weight: 50
