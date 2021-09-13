@@ -1,24 +1,25 @@
 ---
-bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. I also work with point processes, machine learning, and network analysis. 
-education:
-  courses:
-  - course: PhD in Mathematical Statistics
-    institution: University of Oslo
-    year: 2016
-  - course: Master of Science in Statistics 
-    institution: University of Oslo
-    year: 2012
-  - course: Bachelor of Science in Mathematics and Statistics
-    institution: University of Oslo
-    year: 2010
+bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
+#I also work with point processes, machine learning, and network analysis. 
+#education:
+#  courses:
+#  - course: PhD in Mathematical Statistics
+#    institution: University of Oslo
+#    year: 2016
+#  - course: Master of Science in Statistics 
+#    institution: University of Oslo
+#    year: 2012
+#  - course: Bachelor of Science in Mathematics and Statistics
+#    institution: University of Oslo
+#    year: 2010
 email: "jullum@nr.no"
-highlight_name: false
-interests:
-- Explainable AI (XAI) -- Shapley values
-- Statistical point processes 
-- Machine learning
-- Model selection
-- R-programming
+highlight_name: true
+#interests:
+#- Explainable AI (XAI) -- Shapley values
+#- Statistical point processes 
+#- Machine learning
+#- Model selection
+#- R-programming
 organizations:
 - name: Norwegian Computing Center
   url: https://nr.no/en/
@@ -26,7 +27,7 @@ role: Senior Research Scientist
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: mailto:jullum@nr.no
 - display:
     header: true
 #  icon: twitter
@@ -48,9 +49,16 @@ title: Martin Jullum
 
 I am a Senior Research Scientist at the Norwegian Computing
 Center (NR) and has a PhD in mathematical statistics from the University of Oslo. 
-My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. I also conduct research within point processes and network analysis, supervise on both PhD and master's level, do not linger when it comes to applying state-of-the-art machine learning methodology, and do the majority of my daily programming in R.
+My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
 
-<!--- state-of-the-art machine learning methodology using 
+This site is under construction.
+<!---[**More about me and my research**](/moreaboutme/)
+
+
+
+I also conduct research within point processes and network analysis, supervise on both PhD and master's level, do not linger when it comes to applying state-of-the-art machine learning methodology, and do the majority of my daily programming in R.
+
+ state-of-the-art machine learning methodology using 
  and do the majority of my programming in R.
  
  After fairly theoretical master’s and PhD work, he started to develop methodology for more applied problems at NR. Since then, Jullum has worked on both academic research and state-of-the-art ML methodology applied to industrial and public sector problems. The last couple of years, Jullums 

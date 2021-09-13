@@ -3,7 +3,7 @@
 type: widget_page
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # Homepage is headless, other widget pages are not.
 headless: true
