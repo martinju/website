@@ -1,0 +1,52 @@
+@inproceedings{jullum2015approximate,
+  title={An approximate Bayesian inversion framework based on local-Gaussian likelihoods},
+  author={Jullum, M and Kolbj{\o}rnsen, O},
+  booktitle={Petroleum Geostatistics 2015},
+  pages={cp--456},
+  year={2015},
+  organization={European Association of Geoscientists \& Engineers},
+  doi = {https://doi.org/10.3997/2214-4609.201413634},
+  abstract = {We derive a Bayesian statistical procedure for inversion of geophysical data to rock properties. The procedure is for simplicity presented in the seismic AVO setting where rock properties influence the data through elastic parameters. The framework may however easily be extended. The procedure combines sampling based techniques and a compound Gaussian approximation to assess local approximations to marginal posterior distributions of rock properties, which the inversion is based on. The framework offers a range of approximations where inversion speed and accuracy may be balanced. The approach is also well suited for parallelisation, making it attractive for large inversion problems. We apply the procedure to a 4D CO2 monitoring case with focus on predicting saturation content. Promising results are obtained for both synthetic and real data. Finally we compare our method with regular linear Gaussian inversion for density prediction, where our method gives an improved fit.}
+}
+
+@inproceedings{hermansen2015parametric,
+  title={Parametric or nonparametric: The FIC approach for stationary time series},
+  author={Hermansen, Gudmund Horn and Hjort, Nils Lid and Jullum, Martin},
+  booktitle={Proceedings of the 60th World Statistics Congress of the International Statistical Institute},
+  pages={4827--4832},
+  year={2015},
+  doi={},
+abstract = {We seek to narrow the gap between parametric and nonparametric modelling of stationary time series pro-
+cesses. The approach is inspired by recent advances in focused inference and model selection techniques.Our
+paper generalises and extends current work by developing a new version of the focused information criterion
+(FIC), directly comparing the performance of both parametric and nonparametric time series models. This is
+achieved by comparing the mean squared error for estimating a focus parameter under consideration, for each
+candidate model. In particular this yields FIC formulae for covariances or correlations at specified lags, for
+the probability of reaching a threshold, etc. Suitable weighted average versions, the AFIC, also lead to model
+selection strategies for finding the best model for the purpose of estimating e.g. a sequence of correlations.}
+}
+
+@mastersthesis{jullum2012focused,
+  title={Focused Information criteria for selecting among parametric and nonparametric models},
+  author={Jullum, Martin},
+  year={2012},
+  url={http://urn.nb.no/URN:NBN:no-32391},
+  school={Department of Mathematics, University of Oslo},
+  abstract = {In this thesis we develop Focus Information Criteria (FIC) for a number of situations concerning model selection among nonparametric and parametric models. We mainly handle the one-sample case of fully observed independent identically distributed (i.i.d.) data, but also work in the more general setting with censored data. In addition, the regression setting and two-sample situation are discussed. Our criteria are based on asymptotic theory. Maximum likelihood theory outside model conditions and nonparametrics via statistical functionals are central.
+For our main criterion we state weak sufficient conditions, show strong consistency of the intermediate estimators and study the criterion’s properties both in the limit and for finite samples. It turns out that the criterion has certain desirable properties making it asymptotically superior to other information criteria like AIC and BIC in a fairly wide class of situations.
+We also develop weighted versions of some of the schemes and discuss the link between such a criterion and a certain class of goodness of fit tests. Model averaging is also discussed in terms of the derived schemes. We propose a model averaging generalization of the FIC schemes and derive the limiting distribution of the final estimator under a few conditions.
+Some of the criteria are applied to real data examples using the R function that is developed.}
+}
+
+@article{jullum2016gaussian,
+  title={A Gaussian-based framework for local Bayesian inversion of geophysical data to rock properties},
+  author={Jullum, Martin and Kolbj{\o}rnsen, Odd},
+  journal={Geophysics},
+  volume={81},
+  number={3},
+  pages={R75--R87},
+  year={2016},
+  publisher={Society of Exploration Geophysicists},
+  doi={https://doi.org/10.1190/geo2015-0314.1},
+  abstract={Working in a Bayesian framework, we have derived a procedure for inverting rock properties based on geophysical data. The purpose was to arrive at a widely applicable and general procedure in which few and weak assumptions are required for application to various inverse problems within the geophysical industry. Our Bayesian statistical approach combines sampling-based techniques and Gaussian approximations to assess local approximations to quantities related to the posterior distribution of rock properties. These approximated quantities define the Bayesian inversion. A conceptual advantage of our approach is that there are few restrictions on the initial model, allowing realistic statistical models to be approximated directly. The methodology is easily parallelized and offers a range of procedures, which gives a trade-off between inversion speed and accuracy. We have tested the approach in a monitoring setting using seismic amplitudes by evaluating a synthetic case and real data from the Sleipner CO2 injection project. For the synthetic case, the inversion results correspond well with the rock properties used to generate the data and the posterior distribution derived using an MCMC approach. We also found improved accuracy compared with a frequently used Gaussian inversion approach. In the real data case, we clearly identified high-saturation layers present in previous qualitative interpretations.}
+}
