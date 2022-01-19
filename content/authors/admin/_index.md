@@ -51,7 +51,7 @@ I am a Senior Research Scientist at the Norwegian Computing
 Center (NR) and has a PhD in mathematical statistics from the University of Oslo. 
 My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
 
-This site is under construction.
+This site is under construction. In the meanwhile, please see my [Google scholar site](https://scholar.google.com/citations?hl=no&user=lbqfMroAAAAJ).
 <!---[**More about me and my research**](/moreaboutme/)
 
 
