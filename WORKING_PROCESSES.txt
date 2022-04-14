@@ -1,0 +1,11 @@
+##### Working processes ####
+
+### Add new publications ####
+
+1. Add the new publications to my_publications_website.bib
+    Make sure the bib includes the full abstract, doi and all other necessary information
+2. Start the terminal and run the following command:
+academic import --bibtex my_publications_website.bib
+(requires python + academic python module installed, see https://wowchemy.com/docs/content/publications/)
+3. Add pdf with the same name as the folder to the folder
+4. Add a photo by adding that to the folder too (?)
