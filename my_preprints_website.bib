@@ -1,0 +1,56 @@
+
+@article{preprint-jullum2021groupshapley,
+  title={groupShapley: Efficient prediction explanation with Shapley values for feature groups},
+  author={Jullum, Martin and Redelmeier, Annabelle and Aas, Kjersti},
+  journal={arXiv preprint arXiv:2106.12228},
+  year={2021},
+  doi={https://doi.org/10.48550/arXiv.2106.12228},
+  abstract={Shapley values has established itself as one of the most appropriate and theoretically sound frameworks for explaining predictions from complex machine learning models. The popularity of Shapley values in the explanation setting is probably due to its unique theoretical properties. The main drawback with Shapley values, however, is that its computational complexity grows exponentially in the number of input features, making it unfeasible in many real world situations where there could be hundreds or thousands of features. Furthermore, with many (dependent) features, presenting/visualizing and interpreting the computed Shapley values also becomes challenging. The present paper introduces groupShapley: a conceptually simple approach for dealing with the aforementioned bottlenecks. The idea is to group the features, for example by type or dependence, and then compute and present Shapley values for these groups instead of for all individual features. Reducing hundreds or thousands of features to half a dozen or so, makes precise computations practically feasible and the presentation and knowledge extraction greatly simplified. We prove that under certain conditions, groupShapley is equivalent to summing the feature-wise Shapley values within each feature group. Moreover, we provide a simulation study exemplifying the differences when these conditions are not met. We illustrate the usability of the approach in a real world car insurance example, where groupShapley is used to provide simple and intuitive explanations.}
+}
+
+
+@article{preprint-olsen2021using,
+  title={Using Shapley Values and Variational Autoencoders to Explain Predictive Models with Dependent Mixed Features},
+  author={Olsen, Lars Henry Berge and Glad, Ingrid Kristine and Jullum, Martin and Aas, Kjersti},
+  journal={arXiv preprint arXiv:2111.13507},
+  year={2021},
+  doi={https://doi.org/10.48550/arXiv.2111.13507},
+  abstract={Shapley values are today extensively used as a model-agnostic explanation framework to explain complex predictive machine learning models. Shapley values have desirable theoretical properties and a sound mathematical foundation. Precise Shapley value estimates for dependent data rely on accurate modeling of the dependencies between all feature combinations. In this paper, we use a variational autoencoder with arbitrary conditioning (VAEAC) to model all feature dependencies simultaneously. We demonstrate through comprehensive simulation studies that VAEAC outperforms the state-of-the-art methods for a wide range of settings for both continuous and mixed dependent features. Finally, we apply VAEAC to the Abalone data set from the UCI Machine Learning Repository.}
+}
+
+@article{preprint-redelmeier2021mcce,
+  title={MCCE: Monte Carlo sampling of realistic counterfactual explanations},
+  author={Redelmeier, Annabelle and Jullum, Martin and Aas, Kjersti and L{\o}land, Anders},
+  journal={arXiv preprint arXiv:2111.09790},
+  year={2021},
+  doi={https://doi.org/10.48550/arXiv.2111.09790},
+  abstract={In this paper we introduce MCCE: Monte Carlo sampling of realistic Counterfactual Explanations, a model-based method that generates counterfactual explanations by producing a set of feasible examples using conditional inference trees. Unlike algorithmic-based counterfactual methods that have to solve complex optimization problems or other model based methods that model the data distribution using heavy machine learning models, MCCE is made up of only two light-weight steps (generation and post-processing). MCCE is also straightforward for the end user to understand and implement, handles any type of predictive model and type of feature, takes into account actionability constraints when generating the counterfactual explanations, and generates as many counterfactual explanations as needed. In this paper we introduce MCCE and give a comprehensive list of performance metrics that can be used to compare counterfactual explanations. We also compare MCCE with a range of state-of-the-art methods and a new baseline method on benchmark data sets. MCCE outperforms all model-based methods and most algorithmic-based methods when also taking into account validity (i.e., a correctly changed prediction) and actionability constraints. Finally, we show that MCCE has the strength of performing almost as well when given just a small subset of the training data.}
+}
+
+@article{preprint-tjostheim2021statistical,
+  title={Statistical embedding: Beyond principal components},
+  author={Tj{\o}stheim, Dag and Jullum, Martin and L{\o}land, Anders},
+  journal={arXiv preprint arXiv:2106.01858},
+  year={2021},
+  doi={https://doi.org/10.48550/arXiv.2106.01858},
+  abstract={There has been an intense recent activity in embedding of very high dimensional and nonlinear data structures, much of it in the data science and machine learning literature. We survey this activity in four parts. In the first part we cover nonlinear methods such as principal curves, multidimensional scaling, local linear methods, ISOMAP, graph based methods and kernel based methods. The second part is concerned with topological embedding methods, in particular mapping topological properties into persistence diagrams. Another type of data sets with a tremendous growth is very high-dimensional network data. The task considered in part three is how to embed such data in a vector space of moderate dimension to make the data amenable to traditional techniques such as cluster and classification techniques. The final part of the survey deals with embedding in R2, which is visualization. Three methods are presented: t-SNE, UMAP and LargeVis based on methods in parts one, two and three, respectively. The methods are illustrated and compared on two simulated data sets; one consisting of a triple of noisy Ranunculoid curves, and one consisting of networks of increasing complexity and with two types of nodes.}
+}
+
+@article{preprint-grotmol2022performance,
+  title={Performance evaluation of volatility estimation methods for Exabel},
+  author={Grotmol, {\O}yvind and Jullum, Martin and Aas, Kjersti and Scheuerer, Michael},
+  journal={arXiv preprint arXiv:2203.12402},
+  year={2022},
+  doi={https://doi.org/10.48550/arXiv.2203.12402},
+  abstract={Quantifying both historic and future volatility is key in portfolio risk management. This note presents and compares estimation strategies for volatility estimation in an estimation universe consisting on 28 629 unique companies from February 2010 to April 2021, with 858 different portfolios. The estimation methods are compared in terms of how they rank the volatility of the different subsets of portfolios. The overall best performing approach estimates volatility from direct entity returns using a GARCH model for variance estimation.}
+}
+
+@article{preprint-grotmol2022exabel,
+  title={Exabel's Factor Model},
+  author={Grotmol, {\O}yvind and Scheuerer, Michael and Aas, Kjersti and Jullum, Martin},
+  journal={arXiv preprint arXiv:2203.12408},
+  year={2022},
+  doi={https://doi.org/10.48550/arXiv.2203.12408},
+  abstract={Factor models have become a common and valued tool for understanding the risks associated with an investing strategy. In this report we describe Exabel's factor model, we quantify the fraction of the variability of the returns explained by the different factors, and we show some examples of annual returns of portfolios with different factor exposure.}
+}
+

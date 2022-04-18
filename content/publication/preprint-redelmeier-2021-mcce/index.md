@@ -12,7 +12,7 @@ authors:
 tags: []
 categories: []
 date: '2021-01-01'
-lastmod: 2022-04-16T23:17:21+02:00
+lastmod: 2022-04-18T21:33:19+02:00
 featured: false
 draft: false
 
@@ -30,9 +30,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-16T21:17:21.205448Z'
+publishDate: '2022-04-18T19:33:18.566895Z'
 publication_types:
-- '2'
+- '3'
 abstract: 'In this paper we introduce MCCE: Monte Carlo sampling of realistic Counterfactual
   Explanations, a model-based method that generates counterfactual explanations by
   producing a set of feasible examples using conditional inference trees. Unlike algorithmic-based

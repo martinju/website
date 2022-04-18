@@ -13,7 +13,7 @@ authors:
 tags: []
 categories: []
 date: '2021-01-01'
-lastmod: 2022-04-16T23:17:21+02:00
+lastmod: 2022-04-18T21:33:18+02:00
 featured: false
 draft: false
 
@@ -31,9 +31,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-16T21:17:20.744100Z'
+publishDate: '2022-04-18T19:33:17.905867Z'
 publication_types:
-- '2'
+- '3'
 abstract: Shapley values are today extensively used as a model-agnostic explanation
   framework to explain complex predictive machine learning models. Shapley values
   have desirable theoretical properties and a sound mathematical foundation. Precise
