@@ -5,8 +5,8 @@ title: An approximate Bayesian inversion framework based on local-Gaussian likel
 subtitle: ''
 summary: ''
 authors:
-- M Jullum
-- O Kolbjørnsen
+- Martin Jullum
+- Odd Kolbjørnsen
 tags: []
 categories: []
 date: '2015-01-01'
