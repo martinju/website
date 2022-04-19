@@ -16,3 +16,12 @@ academic import --bibtex my_preprints_website.bib
 3. For all preprints, change publication_type from 2 to 3
 3. Add pdf with the same name as the folder to the folder
 4. Add a photo by adding that to the folder too (?)
+
+
+### Add new slides ####
+
+1. Upload pdf/ppt file to static/slides with an informative name (create a convention for this, starting with year for instance, or make folders per year)
+2. Go to content/mytalks and duplicate one of the folders and edit it so that it includes correct info for the new talk
+
+
+
