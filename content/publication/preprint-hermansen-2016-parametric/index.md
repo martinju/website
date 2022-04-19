@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-19T04:49:55.128333Z'
+publishDate: '2022-04-19T20:49:18.651923Z'
 publication_types:
 - '3'
 abstract: We seek to narrow the gap between parametric and nonparametric modelling
@@ -44,5 +44,5 @@ abstract: We seek to narrow the gap between parametric and nonparametric modelli
   etc. Suitable weighted average versions, the AFIC, also lead to model selection
   strategies for finding the best model for the purpose of estimating e.g. a sequence
   of correlations.
-publication: ''
+publication: '*Technical Report, Department of Mathematics, University of Oslo*'
 ---
