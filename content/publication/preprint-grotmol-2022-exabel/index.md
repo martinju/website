@@ -30,7 +30,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-18T19:33:20.392817Z'
+publishDate: '2022-04-18T20:19:27.903401Z'
 publication_types:
 - '3'
 abstract: Factor models have become a common and valued tool for understanding the

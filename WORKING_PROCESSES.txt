@@ -5,6 +5,8 @@
 1. Add the new publications to my_publications_website.bib
                   and preprints to my_preprints_website.bib
     Make sure the bib includes the full abstract, doi and all other necessary information
+    Make sure to use @unpublished for any non-peer reviewed papers: Arxiv, NR notes etc
+    USE @inproceedings for conference papers
 2. Start the terminal and run the following command:
 academic import --bibtex my_publications_website.bib
 and/or

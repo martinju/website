@@ -30,7 +30,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-18T19:33:19.803485Z'
+publishDate: '2022-04-18T20:19:26.988375Z'
 publication_types:
 - '3'
 abstract: Quantifying both historic and future volatility is key in portfolio risk

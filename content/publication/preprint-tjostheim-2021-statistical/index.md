@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-04-18T19:33:19.201021Z'
+publishDate: '2022-04-18T20:19:26.101970Z'
 publication_types:
 - '3'
 abstract: 'There has been an intense recent activity in embedding of very high dimensional

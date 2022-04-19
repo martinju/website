@@ -13,6 +13,10 @@ date: '2017-01-01'
 lastmod: 2022-04-16T23:17:16+02:00
 featured: false
 draft: false
+links:
+- name: Supplement
+  url: publication/jullum-2017-parametric/jullum-2017-parametric-supplement.pdf
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -13,6 +13,9 @@ date: '2019-01-01'
 lastmod: 2022-04-16T23:17:16+02:00
 featured: false
 draft: false
+links:
+- name: Supplement
+  url: publication/jullum-2019-price/jullum-2019-price-supplement.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

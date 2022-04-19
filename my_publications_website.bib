@@ -1,3 +1,16 @@
+@mastersthesis{jullum2012focused,
+  title={Focused Information criteria for selecting among parametric and nonparametric models},
+  author={Jullum, Martin},
+  year={2012},
+  url={http://urn.nb.no/URN:NBN:no-32391},
+  school={Department of Mathematics, University of Oslo},
+  abstract = {In this thesis we develop Focus Information Criteria (FIC) for a number of situations concerning model selection among nonparametric and parametric models. We mainly handle the one-sample case of fully observed independent identically distributed (i.i.d.) data, but also work in the more general setting with censored data. In addition, the regression setting and two-sample situation are discussed. Our criteria are based on asymptotic theory. Maximum likelihood theory outside model conditions and nonparametrics via statistical functionals are central.
+For our main criterion we state weak sufficient conditions, show strong consistency of the intermediate estimators and study the criterion’s properties both in the limit and for finite samples. It turns out that the criterion has certain desirable properties making it asymptotically superior to other information criteria like AIC and BIC in a fairly wide class of situations.
+We also develop weighted versions of some of the schemes and discuss the link between such a criterion and a certain class of goodness of fit tests. Model averaging is also discussed in terms of the derived schemes. We propose a model averaging generalization of the FIC schemes and derive the limiting distribution of the final estimator under a few conditions.
+Some of the criteria are applied to real data examples using the R function that is developed.}
+}
+
+
 @inproceedings{jullum2015approximate,
   title={An approximate Bayesian inversion framework based on local-Gaussian likelihoods},
   author={Jullum, Martin and Kolbj{\o}rnsen, Odd},
@@ -25,17 +38,6 @@ the probability of reaching a threshold, etc. Suitable weighted average versions
 selection strategies for finding the best model for the purpose of estimating e.g. a sequence of correlations.}
 }
 
-@mastersthesis{jullum2012focused,
-  title={Focused Information criteria for selecting among parametric and nonparametric models},
-  author={Jullum, Martin},
-  year={2012},
-  url={http://urn.nb.no/URN:NBN:no-32391},
-  school={Department of Mathematics, University of Oslo},
-  abstract = {In this thesis we develop Focus Information Criteria (FIC) for a number of situations concerning model selection among nonparametric and parametric models. We mainly handle the one-sample case of fully observed independent identically distributed (i.i.d.) data, but also work in the more general setting with censored data. In addition, the regression setting and two-sample situation are discussed. Our criteria are based on asymptotic theory. Maximum likelihood theory outside model conditions and nonparametrics via statistical functionals are central.
-For our main criterion we state weak sufficient conditions, show strong consistency of the intermediate estimators and study the criterion’s properties both in the limit and for finite samples. It turns out that the criterion has certain desirable properties making it asymptotically superior to other information criteria like AIC and BIC in a fairly wide class of situations.
-We also develop weighted versions of some of the schemes and discuss the link between such a criterion and a certain class of goodness of fit tests. Model averaging is also discussed in terms of the derived schemes. We propose a model averaging generalization of the FIC schemes and derive the limiting distribution of the final estimator under a few conditions.
-Some of the criteria are applied to real data examples using the R function that is developed.}
-}
 
 @article{jullum2016gaussian,
   title={A Gaussian-based framework for local Bayesian inversion of geophysical data to rock properties},
@@ -49,6 +51,30 @@ Some of the criteria are applied to real data examples using the R function that
   doi={https://doi.org/10.1190/geo2015-0314.1},
   abstract={Working in a Bayesian framework, we have derived a procedure for inverting rock properties based on geophysical data. The purpose was to arrive at a widely applicable and general procedure in which few and weak assumptions are required for application to various inverse problems within the geophysical industry. Our Bayesian statistical approach combines sampling-based techniques and Gaussian approximations to assess local approximations to quantities related to the posterior distribution of rock properties. These approximated quantities define the Bayesian inversion. A conceptual advantage of our approach is that there are few restrictions on the initial model, allowing realistic statistical models to be approximated directly. The methodology is easily parallelized and offers a range of procedures, which gives a trade-off between inversion speed and accuracy. We have tested the approach in a monitoring setting using seismic amplitudes by evaluating a synthetic case and real data from the Sleipner CO2 injection project. For the synthetic case, the inversion results correspond well with the rock properties used to generate the data and the posterior distribution derived using an MCMC approach. We also found improved accuracy compared with a frequently used Gaussian inversion approach. In the real data case, we clearly identified high-saturation layers present in previous qualitative interpretations.}
 }
+
+@article{kolbjornsen2016bayesian,
+  title={Bayesian AVO inversion to rock properties using a local neighborhood in a spatial prior model},
+  author={Kolbj{\o}nsen, Odd and Buland, Arild and Hauge, Ragnar and R{\o}e, Per and Jullum, Martin and Metcalfe, Richard William and Skj{\ae}veland, {\O}yvind},
+  journal={The Leading Edge},
+  volume={35},
+  number={5},
+  pages={431--436},
+  year={2016},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@phdthesis{jullum2016new,
+  title={New focused approaches to topics within model selection and approximate Bayesian inversion},
+  author={Jullum, Martin},
+  year={2016},
+  doi={http://urn.nb.no/URN:NBN:no-53863},
+  school={Department of Mathematics, University of Oslo},
+  abstract = {This thesis comprises the work conducted during three years as a PhD student at the Department of Mathematics at the University of Oslo (UiO). I will be looking back at these years as an enjoyable phase of my life, in which I learned a lot. The period has also been tough, though -- possibly even tougher than I expected it to be. With the finished thesis in my hand, there is however no doubt it was worth it. Still, I have to agree with the author Joseph Epstein who noted that it is a lot better to have written, than to actually be writing. The final product constituting my PhD thesis is inarguably positively correlated with the original project description, although the rho is far from one. Through these years I have been working with methodology within a broad range of fields across the science of statistics. Among them are approximate Bayesian inference, asymptotic theory, Bayesian statistics, copulae, density estimation, frequentist statistics, functional differentiation, Gaussian distribution theory, geostatistics, inverse problems, Markov chain Monte Carlo (MCMC), model averaging, model selection, spatial statistics, stochastic process theory, survival analysis, time series modelling – and I even had to learn a little bit of geophysics, petrophysics and rock physics. I do by no means claim to master all these subjects, but I have learned a fair amount about all of them, and for that I feel incredibly lucky.
+
+Upon completing this thesis, I am deeply indebted to my two supervisors Nils Lid Hjort and Odd Kolbjørnsen. I am truly grateful for how you inspired me, and the eagerness you showed while working with the various projects. I will sincerely like to thank you both for that. You also supported me and made it possible for me to spend the autumn of 2014 at Stanford University, visiting Paul Switzer at the Department of Statistics. Paul was an outstanding host during some incredible months over there – our delightful academic and non-academic discussions will not be easily forgotten. Being founded by Statistics for Innovation (SFI2), a centre for
+research-based innovation, I was lucky enough to be awarded with two offices in Oslo; one at the campus at Blindern and one at the Norwegian Computing Center (NR) at Forskningsparken. Without even being employed at NR, I was very well taken care of and included in the SAND group. I am thankful for that additional dimension and opportunity to learn, and for being exposed to the weekly dose of Thursday-buns – that will be missed! I would also like to thank all my colleagues, both at the statistics group at UiO and the SAND group at NR. Special thanks go to my ‘roommates’ Marie at NR and Reinaldo at UiO for all our inviting discussions and fascinating conversations, and to Gudmund Horn Hermansen for co-authoring one of the papers in the thesis. Finally, I would like to thank my friends, family, and ‘family-in-law’ for filling my life with joy – especially my wonderful Elin for putting up with me, supporting and understanding me, even though I know you really wished I was rather spending those late evenings and weekends with you.}
+}
+
 
 @article{jullum2017parametric,
   title={Parametric or nonparametric: The FIC approach},
@@ -154,7 +180,7 @@ This research study is one of very few published anti-money laundering (AML) mod
   title={Explaining predictive models with mixed features using Shapley values and conditional inference trees},
   author={Redelmeier, Annabelle and Jullum, Martin and Aas, Kjersti},
   booktitle={International Cross-Domain Conference for Machine Learning and Knowledge Extraction},
-  editor={Holzinger, Andreas and Kieseberg, Peter and Tjoa, A Min and Weippl, Edgar}
+  editor={Holzinger, Andreas and Kieseberg, Peter and Tjoa, A Min and Weippl, Edgar},
   pages={117--137},
   year={2020},
   organization={Springer},
