@@ -1,5 +1,5 @@
 ---
-title: Prediction explanation with Shapley values
+title: Variabelreduksjon (in norwegian)
 
 event: Big Insight - Skatteetaten, internal seminar
 event_url: 
@@ -12,12 +12,12 @@ location: Online
 #  postcode: '94305'
 #  country: United States
 
-summary: Overview of the use of Shapley values for prediction explanation and the relevant work within BigInsight.
+summary: Oversikt over variabelreduksjonsmetoder innen statistikk og maskinlæring.
 abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-10-29"
+date: "2021-09-01T13:00:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
@@ -25,7 +25,7 @@ all_day: true
 publishDate: "2022-02-03T00:00:00Z"
 
 authors: [Martin Jullum]
-tags: [Explainable AI, Shapley]
+tags: [Machine learning, Statistics, Variable reduction]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -41,7 +41,7 @@ featured: false
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "slides/211029_Skatteetaten_Shapley.pdf"
+url_slides: "slides/210901_Skatteetaten_Variabelreduksjon_norsk.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -57,5 +57,5 @@ url_video: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- Explainable AI
+- Machine learning methodology
 ---

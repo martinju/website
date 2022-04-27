@@ -17,9 +17,9 @@ abstract: Shapley values has established itself as one of the most appropriate a
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-01-27T13:00:00Z"
+date: "2021-01-27"
 #date_end: "2030-06-01T15:00:00Z"
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2022-02-03T00:00:00Z"
@@ -30,9 +30,9 @@ tags: [Explainable AI, Shapley]
 # Is this a featured talk? (true/false)
 featured: false
 
-#image:
-#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-#  focal_point: Right
+image:
+  caption: 'Licence: [**CC BY 2.0**](https://creativecommons.org/licenses/by/2.0/)'
+  focal_point: Right
 
 #links:
 #- icon: twitter

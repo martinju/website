@@ -1,7 +1,7 @@
 ---
-title: Prediction explanation with Shapley values
+title: 'Boostede tre modeller: Fra en enkel tre-modell til en XGBoost-modell (in norwegian)'
 
-event: Big Insight - Skatteetaten, internal seminar
+event: Big Insight - Statistisk Sentralbyrå (SSB), internal seminar
 event_url: 
 
 location: Online
@@ -12,12 +12,12 @@ location: Online
 #  postcode: '94305'
 #  country: United States
 
-summary: Overview of the use of Shapley values for prediction explanation and the relevant work within BigInsight.
+summary: En reise fra enkle tre-modeller via boosting, gradient boosting som ender opp med XGBoost.
 abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-10-29"
+date: "2021-02-09"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
@@ -25,7 +25,7 @@ all_day: true
 publishDate: "2022-02-03T00:00:00Z"
 
 authors: [Martin Jullum]
-tags: [Explainable AI, Shapley]
+tags: [Machine learning, XGBoost]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -41,7 +41,7 @@ featured: false
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "slides/211029_Skatteetaten_Shapley.pdf"
+url_slides: "slides/210209_SSB_XGBoost_norsk.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -57,5 +57,5 @@ url_video: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- Explainable AI
+- XGBoost
 ---
