@@ -1,0 +1,30 @@
+##### Working processes ####
+
+NOTE: All content and settings from the example site can be seen under themes/starter-hugo-academic/exampleSite
+
+### Add new publications ####
+
+1. Add the new publications to my_publications_website.bib
+                  and preprints to my_preprints_website.bib
+    Make sure the bib includes the full abstract, doi and all other necessary information
+    Make sure to use @unpublished for any non-peer reviewed papers: Arxiv, NR notes etc
+    USE @inproceedings for conference papers
+2. Start the terminal and run the following command:
+academic import --bibtex my_publications_website.bib
+and/or
+academic import --bibtex my_preprints_website.bib
+
+(requires python + academic python module installed, see https://wowchemy.com/docs/content/publications/)
+3. Add pdf with the same name as the folder to the folder
+4. Add a photo by adding that to the folder and naming it featured
+
+
+### Add new slides ####
+
+1. Upload pdf/ppt file to static/slides with an informative name (create a convention for this, starting with year for instance, or make folders per year)
+2. Go to content/event and duplicate one of the folders and edit it so that it includes correct info for the new talk
+3. If you upload an image names featured there, it will be displayed in the list and when clicked on.
+
+
+
+

@@ -1,0 +1,9 @@
+#### TODO
+
+1. Add all my publications to my_publications_website.bib and run the generator
+2. Add all pds too
+3. Delete the samples (in a separate commit to easily get it back)
+4. Add all my talks in the same fashion as for the publications (separate bib file)
+  (may want to check out the cms importer first to see if I can use that)
+5. Add publications and talks to the main site with a "featured" tab
+
