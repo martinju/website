@@ -1,6 +1,5 @@
 ---
-bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
-#I also work with point processes, machine learning, and network analysis. 
+bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. I also work with machine learning, point processes and network analysis. 
 #education:
 #  courses:
 #  - course: PhD in Mathematical Statistics
@@ -51,8 +50,10 @@ I am a Senior Research Scientist at the Norwegian Computing
 Center (NR) and has a PhD in mathematical statistics from the University of Oslo. 
 My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
 
-This site is under construction.
-<!---[**More about me and my research**](/moreaboutme/)
+Feel free to browse my published [**papers**](/publication) or [**talks**](/event), or drop me a line at <jullum@nr.no>.
+
+<!---This site is under construction.
+[**More about me and my research**](/moreaboutme/)
 
 
 
