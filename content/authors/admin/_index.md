@@ -1,5 +1,6 @@
 ---
-bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. I also work with machine learning, point processes and network analysis. 
+#bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. I also work with machine learning, point processes and network analysis. 
+bio: XAI (Shapley values, counterfactuals), model selection, machine learning, point processes, network analysis. 
 #education:
 #  courses:
 #  - course: PhD in Mathematical Statistics
