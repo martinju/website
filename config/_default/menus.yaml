@@ -7,9 +7,14 @@ main:
   - name: Home
     url: '#about'
     weight: 1
-  #- name: Posts
-  #  url: '#posts'
-  #  weight: 20
+#  - name: GitHub
+#    url: https://github.com/rstudio/blogdown
+#  - name: sideprojects-old
+#    url: 'sideprojects_old/'
+#    weight: 60
+  - name: Side projects
+    url: 'sideprojects/'
+    weight: 61
   # - name: Projects
   #   url: '#projects'
   #   weight: 30
@@ -22,9 +27,9 @@ main:
   # - name: Publications
   #   url: '#featured'
   #   weight: 50
-  # - name: Courses
-  #   url: courses/
-  #   weight: 60
+  #- name: Sideprojects
+  #  url: '#courses'
+  #  weight: 60
   #- name: Contact
   #  url: '#contact'
   #  weight: 70
