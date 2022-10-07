@@ -47,12 +47,14 @@ superuser: true
 title: Martin Jullum
 ---
 
-I am a Senior Research Scientist at the Norwegian Computing
-Center (NR) and has a PhD in mathematical statistics from the University of Oslo. 
+I am a Senior Research Scientist at the [Norwegian Computing
+Center (NR)](https://nr.no) and has a PhD in mathematical statistics from the University of Oslo. 
 My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
 
 
 Feel free to browse my published [**papers**](/publication) or [**talks**](/event), or drop me a line at <jullum@nr.no>.
+
+If you came here looking for my [**Strømstøtte** site, look no further](/sideprojects/stromstotte).
 
 <!---This site is under construction.
 [**More about me and my research**](/moreaboutme/)
