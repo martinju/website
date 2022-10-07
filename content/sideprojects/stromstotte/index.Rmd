@@ -33,7 +33,7 @@ I et forsøk på å svare på disse spørsmålene har jeg estimert den gjennomsn
 Kombinert med den gjennomsnittlige spotprisen så langt i måneden gir dette et estimat på månedens strømstøtten med usikkerhetsintervaller.
 Estimatene oppdateres automatisk ca kl. 13.30 når neste dags spotpris blir offentliggjort.
 
-## Estimater
+## Estimater 123
 
 Tabellen nedenfor viser estimat + 95\% konfidensintervall for månedlig strømpris og dertilhørende strømstøtte for hver av de fem prisområdene med siste tilgjengelige spotpriser.
 Konfidensintervallet viser hvilket intervall den faktiske månedelige spotprisen/strømstøtten vil ligge innenfor i 95\% av gangene dette gjentas.
