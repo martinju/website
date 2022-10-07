@@ -5,8 +5,6 @@
   publishDate: '`r Sys.Date()-1`'
   output: 
     html_document: default
-  header:
-    image: "https://raw.githubusercontent.com/martinju/stromstotte/master/output/current_estimate_tab.png"
 ---
 
 *Sist oppdatert `r format(Sys.time(),'%H.%M, %d.%m.%Y')` av [Martin Jullum, Norsk Regnesentral](https://nr.no/ansatte/martin-jullum/).*
