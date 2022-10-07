@@ -1,11 +1,10 @@
 name: Rebuild stromstotte site
 
 # Controls when the action will run. (making sure it is run after stromstotte is ran)
+# 13.20, 13.30, 13.50
 on:
   schedule:
-    - cron:  '20 11 * * *'
-    - cron:  '30 11 * * *'
-    - cron:  '40 11 * * *'
+    - cron:  '20,30,50 11 * * *'
 #  push:
 
 
