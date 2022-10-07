@@ -22,13 +22,13 @@ jobs:
         packages: |
           any::here
           any::blogdown
-      - name: Install Hugo
-        run: Rscript -e 'blogdown::install_hugo(extended = TRUE, version = "0.87.0")'
-      - name: Build site
-        run: |
-          blogdown:::touch_file(here::here("content", "sideprojects","stromstotte", "index.Rmd"))
-          blogdown:::build_site(TRUE)
-        shell: Rscript {0}
+    - name: Install Hugo
+      run: Rscript -e 'blogdown::install_hugo(extended = TRUE, version = "0.87.0")'
+    - name: Build site
+      run: |
+        blogdown:::touch_file(here::here("content", "sideprojects","stromstotte", "index.Rmd"))
+        blogdown:::build_site(TRUE)
+      shell: Rscript {0}
 
 
 # Add new files in data folder, commit along with other modified files, push
