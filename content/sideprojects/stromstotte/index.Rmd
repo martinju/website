@@ -1,6 +1,7 @@
 ---
   title: Estimering av strømstøtte
-  author: "Martin Jullum, Seniorforsker Norsk Regnesentral"
+  author: Martin Jullum, Seniorforsker Norsk Regnesentral
+  date: '`r format(Sys.time(), "%Y-%m-%d")`'
   output: 
     html_document: default
 ---
