@@ -27,7 +27,7 @@ jobs:
     - name: Build site
       run: |
         blogdown:::touch_file(here::here("content", "sideprojects","stromstotte", "index.Rmd"))
-        blogdown:::build_site(TRUE)
+        blogdown:::build_site(run_hugo=FALSE, build_rmd = "content/sideprojects/stromstotte/index.Rmd")
       shell: Rscript {0}
 
 
@@ -36,7 +36,6 @@ jobs:
       run: |
         git config --local user.name actions-user
         git config --local user.email "actions@github.com"
-        git config advice.addIgnoredFile false
         git add *
         git commit -am "GHA rebuild stromstotte $(date)"
         git push
