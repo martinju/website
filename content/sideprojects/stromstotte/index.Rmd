@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 
 ## Bakgrunn
 
-Statens strømstøtteordning gir en støtte til husholdninger per kWh.
+Statens strømstøtteordning gir støtte til husholdninger per kWh.
 Støtten fastsettes etter månedsslutt basert på månedens gjennomsnittlige spotpris.
 Støtteordningen tar altså ikke hensyn til hva spotprisen er i periodene man bruker mest og minst strøm.
 Siden spotprisen en bestemt dag fastsettes først dagen før, vet man heller ikke hvor stor støtten blir før nest siste dag i måneden.
