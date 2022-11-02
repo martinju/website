@@ -4,7 +4,7 @@ name: Rebuild stromstotte site
 # 13.20, 13.30, 13.50
 on:
   schedule:
-    - cron:  '20,30,50 12 * * *'
+    - cron:  '20,30,50 11 * * *'
   push:
 
 
