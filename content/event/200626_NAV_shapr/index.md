@@ -1,10 +1,10 @@
 ---
-title: Detecting money laundering with machine learning
+title: Shapley-baserte modellforklaringer
 
-event: Big Insight lunch seminar
-event_url: https://www.biginsight.no/events/2020/8/26/zoomnr-wednesday-lunch-martin-jullum
+event: DS-Fredag @ NAV
+event_url: ""
 
-location: Norwegian Computing Center, Norway/ Online
+location: Online
 #address:
 #  street: 450 Serra Mall
 #  city: Stanford
@@ -12,12 +12,13 @@ location: Norwegian Computing Center, Norway/ Online
 #  postcode: '94305'
 #  country: United States
 
-summary: Overview of our work on detecting money laundering with machine learning
-abstract: ""
+summary: Enkel introduksjon til modellforklaring og Shapley verdier + praktisk bruk av R-pakken shapr
+abstract: "Martin Jullum (NR) gjester DS-fredag og gir oss et kræsjkurs i Shapley-baserte metoder for å forklare modeller og demo av nye features i pakken shapr: 1) Hva vil det si å forklare og hvorfor er det viktig/nyttig? 2) Shapley-rammeverket, 3) Problemet med avhengighet (både i Shapley-rammeverket og generelt), 4) Forenklet gjennomgang av noen av våre metoder for å håndtere dette, 5) Praktisk bruk av R-pakken vår (her viser jeg hvordan man bruker pakka i praksis og inkluderer kanskje noen illutrasjoner av hva man får med og uten å ta hensyn til avhengighet)
+"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-08-26"
+date: "2020-06-26"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
@@ -25,7 +26,7 @@ all_day: true
 publishDate: "2022-02-03T00:00:00Z"
 
 authors: [Martin Jullum]
-tags: [Anti Money Laundering, XGBoost, Machine learning]
+tags: [Explainable AI, Shapley, shapr]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -39,9 +40,9 @@ featured: false
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-url_code: ""
+url_code: "slides/200626_NAV_shapr.html"
 url_pdf: ""
-url_slides: "slides/200826_BigInsightSeminar_AML.pdf"
+url_slides: "slides/200626_NAV_shapr.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -57,5 +58,5 @@ url_video: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- Anti Money Laundering
+- Explainable AI
 ---
