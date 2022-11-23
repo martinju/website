@@ -1,6 +1,6 @@
 ---
 #bio: My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. I also work with machine learning, point processes and network analysis. 
-bio: XAI (Shapley values, counterfactuals), model selection, machine learning, point processes, network analysis. 
+bio: XAI (Shapley values, counterfactuals), machine learning, network analysis, model selection, point processes. 
 #education:
 #  courses:
 #  - course: PhD in Mathematical Statistics
@@ -49,10 +49,10 @@ title: Martin Jullum
 
 I am a Senior Research Scientist at the [Norwegian Computing
 Center (NR)](https://nr.no) and has a PhD in mathematical statistics from the University of Oslo. 
-My research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
+My main research interests is currently oriented around Explainable AI (XAI) with particular emphasis on Shapley values. 
 I am (co-) supervising PhD student [Lars Henry Berge Olsen](https://www.mn.uio.no/math/personer/vit/lholsen/), working on the topic.
 
-I am also the Principal Investigator for the [**Fraud detection**](https://www.biginsight.no/personalised-fraud-detection) activities in the [**BigInsight**](https://www.biginsight.no) research center.
+I am also the Principal Investigator for the [**Fraud detection**](https://www.biginsight.no/personalised-fraud-detection) activities in the [**BigInsight**](https://www.biginsight.no) research center, where we work with detection of money laundering, insurance fraud and tax evasion.
 
 Feel free to browse my published [**papers**](/publication) or [**talks**](/event), or drop me a line at <jullum@nr.no>.
 
