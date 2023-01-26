@@ -56,7 +56,7 @@ I am also the Principal Investigator for the [**Fraud detection**](https://www.b
 
 Feel free to browse my published [**papers**](/publication) or [**talks**](/event), or drop me a line at <jullum@nr.no>.
 
-If you came here looking for my [**Strømstøtte** site, look no further](/sideprojects/stromstotte).
+If you came here looking for my **strømstøtte** site, look no further: [dinstrompris.no](https://dinstrompris.no).
 
 <!---This site is under construction.
 [**More about me and my research**](/moreaboutme/)
