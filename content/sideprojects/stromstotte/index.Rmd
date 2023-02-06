@@ -16,7 +16,7 @@
 
 Estimater sist oppdatert `r readLines("https://raw.githubusercontent.com/martinju/stromstotte/master/output/update_time.txt")`.
 
-__Oppdatering 18. des 2022__: På [dinstrompris.no](https://dinstrompris.no) har jeg nå laget en tjeneste der du basert på ditt postnummer får se din faktiske strømpris inkludert både spotpris, strømstøtte og nettleie. Strømstøtteestimatene jeg bruker på den siden er de sammen som vist nedenfor.
+__Oppdatering 18. des 2022__: På [dinstrompris.no](https://dinstrompris.no) har jeg nå laget en tjeneste der du basert på ditt postnummer får se din faktiske strømpris inkludert både spotpris, strømstøtte og nettleie.  Strømstøtteestimatene jeg bruker på den siden er de sammen som vist nedenfor.
 
 
 ```{r, include = FALSE}
