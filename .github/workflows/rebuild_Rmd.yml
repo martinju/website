@@ -10,7 +10,7 @@ on:
 
 jobs:
   touch-and-rebuild:
-    runs-on: ubuntu-20.04#ubuntu-latest
+    runs-on: ubuntu-20.04 #ubuntu-latest
 
     # Load repo and install R
     steps:
