@@ -13,7 +13,7 @@
 
 -->
 
-```{r, echo = FALSE, warnings= FALSE, messages = FALSE}
+```{r, echo = FALSE, warning= FALSE, messages = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   warnings = FALSE,
