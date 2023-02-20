@@ -1,0 +1,228 @@
+---
+  title: Konsekvenser av ny strømstøtteordning
+  #authors: ["admin"]  
+  date: '2023-02-20'
+  output: 
+    html_document: default
+---
+
+<!--
+*This file is last rendered `r format(Sys.time(),'%H.%M, %d.%m.%Y')`.
+
+*Av [Martin Jullum, Norsk Regnesentral](https://nr.no/ansatte/martin-jullum/).*
+
+-->
+
+```{r, echo = FALSE, warnings= FALSE, messages = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warnings = FALSE,
+  messages = FALSE,
+  comment = "#>",
+#  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+
+source("computation_script.R")
+```
+
+
+I [dagens utgave av Dagens Næringsliv](https://www.dn.no/energi/stromstotte/strom/norsk-regnesentral/forsker-tror-ikke-stromregningen-blir-mye-lavere-med-ny-stotteordning-det-er-ikke-sa-mye-i-kroner/2-1-1406121) omtales noen beregninger jeg har gjort 
+etter [regjeringens innføring av ny timesbasert strømstøtteordning onsdag kveld](https://www.nrk.no/norge/stromstotte-ut-2024-_-mer-hjelp-om-sommeren-1.16299173).
+
+Ordningen regjeringen innførte, som ikke blir gjeldende før sensommeren/høsten,
+er akkurat den samme ordningen jeg foreslo i en [kronikk](https://www.dn.no/innlegg/stromstotte/strompris/kraftmarkedet/et-forslag-til-stromstotte-basert-pa-timespriser/2-1-1398150) som stod på trykk i DN noen dager tidligere. 
+I regneeksemplet og figuren i kronikken viste jeg frem timesbasert støtteordning med et noe høyere innslagspunkt (82,2 øre/kWh før moms), som et eksempel som ville gitt samme regning for staten i prisområde NO1 (Oslo) for månedene oktober, november og desember. Jeg var imidlertid klar på at jeg kun hadde fasiten når det gjaldt beregningsmetoden (timesbasert avregning), ikke når det gjalt presist innslagspunkt og kompensasjonsgrad. Regjeringen gjorde det enkelt, å videreførte både innslagspunkt (70 øre/kWh før moms) og kompensasjonsgrad (90%) fra den nåværende månedsbaserte ordningen.
+
+I (starten av) DN-saken fokuseres det på at regjeringens ny ordning ikke gir særlig store månedlige besparelser kontra det å videreføre dagens ordning. Regjeringen har også fått kritikk fra flere hold ([opposisjonen](https://www.dn.no/frp-regjeringen-har-verken-vilje-eller-evne-til-a-lose-strompriskrisen/2-1-1404673), [Elvia](https://www.nrk.no/norge/nettselskap-mener-ny-stromstotte-ikke-vil-monne-mye-1.16299491)) for at det ikke monner stort. 
+Som jeg uttaler i DN, er imidlertid ikke hensikten med å endre avregningsmetode å redusere gjennomsnittsregningene, men å sikre husholdningene mot ekstrempriser. Negative priser og at strømprisen ikke er kjent når den brukes er også uheldige effekter av dagens ordning, som nå effektivt blir borte med timesbasert avregning. Det kan godt hende at mer av prissignalet burde videreføres til forbrukerne ved å senke kompensasjonsgraden, kanskje samtidig med innslagspunktet for å samtidig redusere regningene i snitt. Timesbasert strømstøtteordning er i alle tilfeller en vesentlig bedre avregningsmetode. 
+Får vi i år, som i fjor, tilfeller der spotprisen skyter i været enkelttimer eller enkeltdager, så skal husholdningene være veldig glade for at støtteordningen er timesbasert.  
+
+## Datagrunnlag
+
+Sammen med spotprisen, tar tallene som presenteres i DN utgangspunkt i det [faktiske strømforbruket til husholdningene hver dag gjennom hele 2022](https://elhub.no/statistikk/stromforbruk/) i hver av de fem prisområdene i Norge. 
+For hver dag har jeg brukt gjennomsnittlig forbruk i hvert prisområde som grunnlag. 
+Forbruket er altså forskjellig hver dag for hvert prisområde, og hensyntar således f.eks økt forbruk når det er kaldt.
+Forbruket er så fordelt på timer i henhold til figur 2 i SSBs rapport ['Hvordan varierer timeforbruket av strøm i ulike sektorer?', Ericson & Halvorsen (2008)](https://www.ssb.no/energi-og-industri/artikler-og-publikasjoner/hvordan-varierer-timeforbruket-av-strom-i-ulike-sektorer), og er altså ulikt fordelt i hverdager og helger, men med samme fordeling i alle prisområder og årstider. Dette er neppe 100% korrekt, også fordi rapporten er 15 år gammel, men er de beste data jeg har funnet hva angår timesfordeling av strømforbruk til husholdninger. Jeg tror heller ikke dette skiller seg totalt fra sannehten eller utgjør særlig feil i sluttresulatene.
+Kombinert gir dermed disse to kildene et gjennomsnittsforbruk for husholdninger i de fem prisområdene for hver time gjennom året.
+
+Spotprisen hver time for hvert av de fem prisområde er hentet fra [NordPool](https://www.nordpoolgroup.com/en/Market-data1/Dayahead/Area-Prices/ALL1/Hourly/?view=table) i NOK/kWh.
+
+## Beregningene 
+
+I mine beregninger og sammenligninger har jeg sett på priser, kostnader og besparelser for 2022 over tre ulike scenarier:
+
+1. (daværende ordning) Månedsbasert avregning med 80% dekning januar-august, og 90% dekning september-desember.
+2. (nåværende ordning) Månedsbasert avregning med 90% dekning hele 2022
+3. (ny ordning) Timesbasert avregning med 90% dekning hele 2022
+
+For hvert scenario presenterer jeg nedenfor faktisk strømpris og sammenligninger av månedlig kostnad og kompensajon for en gjennomsnitthusholdning.
+Jeg viser i tillegg den empiriske sammenhengen mellom besparelse med ny ordning og svingningene i spotprisen. 
+
+
+
+## Strømpriser time for time med ulike ordninger
+
+Figuren nedenfor viser strømprisen ut mot husholdningene (ekskludert nettleie og eventuelt påslag fra strømselskap) med de tre nevnte scenariene, sammen med spotpris og månedlig gjennomsnittlig spotpris for prisområde NO1 (Oslo). Tilsvarende figur for alle prisområder finnes [her](/uploads/timespris_ulike_ordninger.pdf).
+Som vi ser av figuren er det stor forskjell i strømprisen med timesbasert avregning kontra månedsbasert avregning, der førstnevnte svinger langt mindre. Legg spesielt merke til hvordan den timesbaserte avregningen tar unna toppene i spotprisen og unngår de negative strømprisene. Når strømprisen er stabil gjennom hele måneden (se f.eks. mars), er det liten forskjell på ordningene.
+
+
+```{r prisplot, echo=FALSE, out.width = '100%',fig.width=12,fig.height=9}
+# PRISPLOT
+
+dt_plotprice <- dt_hourly[,.(tp,area,date,start_hour,year,month,
+                             price,mean_price,current_real_price,new_real_price1,actual_price)]
+setnames(dt_plotprice,
+         c("price","mean_price","current_real_price","new_real_price1","actual_price"),
+         c("spotpris",
+           "månedlig_gjennomsnittlig_spotpris",
+           "pris_nåværende_ordning",
+           "pris_ny_ordning",
+           "pris_daværende_ordning"))
+
+
+melt_dt_plotprice <- melt(dt_plotprice,
+                          id.vars = c("tp","area","date","start_hour","year","month"))
+melt_dt_plotprice[,variable:=factor(variable,
+                                    levels=c("månedlig_gjennomsnittlig_spotpris",
+                                                      "spotpris",
+                                                      "pris_daværende_ordning",
+                                                      "pris_nåværende_ordning",
+                                                      "pris_ny_ordning"))]
+i = 1
+  this <- paste0("NO",i)
+ggplot(melt_dt_plotprice[area==this],aes(x=tp,y=value,col=variable))+
+    geom_line()+
+    facet_wrap(vars(month),scales="free",labeller = label_both,nrow = 4)+
+    theme(legend.position = "bottom")+
+    guides(color=guide_legend(nrow=2,byrow=TRUE))+
+    ylab("NOK/kWh")+
+    xlab("Tidspunkt")+
+    ggtitle(paste0("Priser per måned prisområde ",this))
+
+```
+
+## Kostnader, kompensasjon og besparelse for gjennomsnittshusholdninger
+
+Figuren nedenfor hvor stor kompensasjonen hadde blitt for gjennomsnittshusholdninger i de tre scenariene for hver måned gjennom fjoråret. Den røde linjen (daværende ordning) viser hvor stor kompensasjonen faktisk var for en gjennomsnittshusholdning den aktuelle måneden, mens grønn viser hva den hadde blitt om det hadde vært 90% månedlig dekning hele året (disse er dermed identiske i september-desember). 
+
+
+```{r kompensasjon, echo=FALSE, out.width = '100%',fig.width=12,fig.height=9}
+# kompensasjon
+
+dt_plotcost2 <- dt_cost_month[,.(area,month,
+                                 tot_comp_current,tot_comp_new1,tot_comp_actual)]
+
+setnames(dt_plotcost2,
+         c("tot_comp_current","tot_comp_new1","tot_comp_actual"),
+         c("nåværende_ordning",
+           "ny_ordning",
+           "daværende_ordning"))
+
+
+melt_dt_plotcost2 <- melt(dt_plotcost2,
+                          id.vars = c("area","month"))
+melt_dt_plotcost2[,variable:=factor(variable,levels=c("daværende_ordning",
+                                                      "nåværende_ordning",
+                                                      "ny_ordning"))]
+
+ggplot(melt_dt_plotcost2,aes(x=month,y=value,col=variable))+
+  geom_line()+
+  geom_point()+
+  facet_wrap(vars(area),scales="free")+
+  theme(legend.position = "bottom")+
+  ylab("NOK")+
+  xlab("Måned")+
+  ggtitle("Kompensasjon per måned for gjennomsnittshusholdning")
+
+```
+
+Figuren nedenfor viser strømkonstnaden for gjennomsnittshusholdningene etter at støtten er fratrukket (nettleie og påslag fra strømleverandør er fortsatt ekskludert). Som vi ser av de to figurene er det for de *aller fleste månedene* liten forskjell på dagnes ordning (med 90% dekning året gjennom) og den nye ordning. For *enkelte måneder* (der strømprisen svinger mye) er det imidlertid *større forskjeller*. I figur \@ref(fig:besparelse) vises besparelsen man får for hver av månedene med ny ordning kontra nåværende ordning (turkis) og daværende ordning (rød), altså differansen mellom kompensasjonene. Ny ordning gir med andre ord som oftest ingen stor ekstra besparelse, men gir i enkeltmåneder en betydelig ekstrakompensasjon.
+
+```{r kostnad, echo=FALSE, out.width = '100%',fig.width=12,fig.height=9}
+# Kostnad
+
+dt_plotcost <- dt_cost_month[,.(area,month,
+                                consumer_cost_current,consumer_cost_new1,consumer_cost_actual)]
+
+setnames(dt_plotcost,
+         c("consumer_cost_current","consumer_cost_new1","consumer_cost_actual"),
+         c("nåværende_ordning",
+           "ny_ordning",
+           "daværende_ordning"))
+
+
+melt_dt_plotcost <- melt(dt_plotcost,
+                         id.vars = c("area","month"))
+melt_dt_plotcost[,variable:=factor(variable,levels=c("daværende_ordning",
+                                                     "nåværende_ordning",
+                                                     "ny_ordning"))]
+
+ggplot(melt_dt_plotcost,aes(x=month,y=value,col=variable))+
+  geom_line()+
+  geom_point()+
+  facet_wrap(vars(area),scales="free")+
+  theme(legend.position = "bottom")+
+  ylab("NOK")+
+  xlab("Måned")+
+  ggtitle("Husholdningskostnad per måned for gjennomsnittshusholdning")
+
+```
+
+
+```{r besparelse, echo=FALSE, out.width = '100%',fig.width=12,fig.height=9, fig.cap="Besparelse"}
+# kompensasjon
+
+dt_plotcost3 <- dt_cost_month[,.(area,month,
+                                 besparelse_ny_vs_daværende,besparelse_ny_vs_nåværende)]
+
+setnames(dt_plotcost3,
+         c("besparelse_ny_vs_daværende","besparelse_ny_vs_nåværende"),
+         c("ny_vs_daværende",
+           "ny_vs_nåværende"))
+
+
+melt_dt_plotcost3 <- melt(dt_plotcost3,
+                          id.vars = c("area","month"))
+melt_dt_plotcost3[,variable:=factor(variable,levels=c("ny_vs_daværende",
+                                                      "ny_vs_nåværende"))]
+
+ggplot(melt_dt_plotcost3,aes(x=month,y=value,col=variable))+
+  geom_line()+
+  geom_point()+
+  facet_wrap(vars(area),scales="free")+
+  theme(legend.position = "bottom")+
+  ylab("NOK")+
+  xlab("Måned")+
+  ggtitle("Besparelse per måned for gjennomsnittshusholdning")
+
+```
+
+## Når gir ny ordning en ekstra besparelse?
+
+Som nevnt over gir ny strømstøtteordning liten besparelse de fleste månedene, mens det gir et betydelig tilskudd andre måneder. Dette henger sammen med svingningene i spotprisen den aktuelle måneden. Punktene i figuren nedenfor viser derfor den månedelige besparelsen i kroner (kontra daværende ordning) som en funksjon av volatiliteten (standardavviket) i spotprosen den aktuelle måneden. Figuren slår sammen månedelige besparelser for alle prisområder i samme figur. Jeg har lagt på en glattet kurve for å vise trenden. Figuren viser altså altså klart og tydelig at det er når svingningene i strømprisen er stor at besparelsen er størst. 
+
+
+```{r volatilitet, message=FALSE, warning=FALSE, echo=FALSE, out.width = '100%',fig.width=12,fig.height=9}
+# volatilitet
+
+dt_plot_vol_besparelse <- merge(dt_cost_month[,.(area,month,besparelse_ny_vs_daværende, besparelse_ny_vs_nåværende)],dt_vol,by=c("area","month"))
+
+ggplot(dt_plot_vol_besparelse,aes(x=volatilitet,y=besparelse_ny_vs_daværende))+
+  geom_point()+
+  geom_smooth()+
+  ggtitle("Månedlig besparelse (kontra daværende ordning) vs volatilitet i spotpris")
+
+```
+
+
+
+_________________
+
+
+Alle beregninger [Martin Jullum](https://martinjullum.com) ([jullum@nr.no](mailto:jullum@nr.no)), [Seniorforsker Norsk Regnesentral](https://nr.no/ansatte/martin-jullum/)
+
+PS: Inntil timesbasert strømstøtteordning trer i kraft høsten 2023, kan du se din faktiske strømpris på [dinstrompris.no](https://dinstrompris.no), inkludert både spotpris, strømstøtte og nettleie. Siden oppdateres daglig med nye strømpriser og strømstøtteestimater.
+
+
+
