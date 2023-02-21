@@ -219,6 +219,31 @@ ggplot(dt_plot_vol_besparelse,aes(x=volatilitet,y=besparelse_ny_vs_daværende))+
 
 ```
 
+## Årstotal
+
+Nedenfor vises total kompensasjon, og kostand for husholdninger for hele 2022, med de ulike ordningene. Kostnadsdifferansen til ny ordning (altså hvor mye man ville spart med ny ordning kontra de to andre alternativene) er også angitt. 
+
+```{r total, message=FALSE, warning=FALSE, echo=FALSE, out.width = '100%',result="asis"}
+library(knitr)
+# volatilitet
+
+a1=dt_cost_year[,.(area,kompensasjon_ny_ordning,husholdningskostnad_ny_ordning)]
+names(a1)=c("Prisområde","Kompensasjon","Totalkostnad")
+
+a2=dt_cost_year[,.(area,kompensasjon_nåværende_ordning,husholdningskostnad_nåværende_ordning, besparelse_ny_vs_nåværende)]
+names(a2)=c("Prisområde","Kompensasjon","Totalkostnad","Kostnadsdifferanse ny ordning")
+
+a3=dt_cost_year[,.(area,kompensasjon_daværende_ordning,husholdningskostnad_daværende_ordning, besparelse_ny_vs_daværende)]
+names(a3)=c("Prisområde","Kompensasjon","Totalkostnad","Kostnadsdifferanse ny ordning")
+
+kable(a1,digits = 0,caption = "Ny ordning",format="pandoc")
+
+kable(a2,digits = 0,caption = "Nåværende ordning",format="pandoc")
+
+kable(a3,digits = 0,caption = "Daværende ordning",format="pandoc")
+
+```
+
 
 
 _________________
