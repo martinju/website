@@ -1,10 +1,10 @@
 ---
-title: Global model agnostic* explanation methods
+title: The uncertain electricity price
 
-event: NAV, internal Seminar
-#event_url: 
+event: Prediction with Uncertainty
+event_url: https://cas-nor.no/events/prediction-uncertainty
 
-location: Online
+location: Center for Advanced Study, Oslo
 #address:
 #  street: 450 Serra Mall
 #  city: Stanford
@@ -12,12 +12,12 @@ location: Online
 #  postcode: '94305'
 #  country: United States
 
-summary: Brief introduction and comparison of four global explanation methods
-abstract: We introduce and compare four differnet global explanations. The methods are ALE Plots, Permutation Feature Importance, SAGE and Mean decrease impurity (for additive trees). Joint talk with Annabelle Redelmeier.
+summary: Describe and estimate current electricity prices with statistical modeling.
+abstract: We describe the Norwegian system compensating for high electricity prices, how the current, actual electricity price needs estimation and how I have done this with basic time series modeling. A dashboard providing the estimates to the end user is also showcased.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-04-08T00:00:00Z"
+date: "2022-12-06T00:00:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
@@ -25,7 +25,7 @@ all_day: true
 publishDate: "2022-04-08T00:00:00Z"
 
 authors: [Martin Jullum]
-tags: [Explainable AI]
+tags: [stromstotte] # AML, Explainable AI, stromstotte
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -39,9 +39,9 @@ featured: false
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-url_code: ""
+url_code: "https://dinstrompris.no"
 url_pdf: ""
-url_slides: "slides/220408_NAV_Global.pdf"
+url_slides: "slides/221206_PredUnc_ElectricityPrice.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -57,5 +57,5 @@ url_video: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- Explainable AI
+- stromstotte # AML, Explainable AI, stromstotte
 ---

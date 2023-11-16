@@ -1,7 +1,7 @@
 ---
-title: Global model agnostic* explanation methods
+title: Strømstøttemodellering ++
 
-event: NAV, internal Seminar
+event: Norwegian Computing Center, SAMBA, Internal Seminar
 #event_url: 
 
 location: Online
@@ -12,12 +12,12 @@ location: Online
 #  postcode: '94305'
 #  country: United States
 
-summary: Brief introduction and comparison of four global explanation methods
-abstract: We introduce and compare four differnet global explanations. The methods are ALE Plots, Permutation Feature Importance, SAGE and Mean decrease impurity (for additive trees). Joint talk with Annabelle Redelmeier.
+summary: Kort oversikt over mitt arbeid med strømstøttemodellering
+abstract: Oversikt over strømstøttesystemet, min estimering av dette, samt dashboard for fremvisning av endelig strømpris ut til sluttkunde.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-04-08T00:00:00Z"
+date: "2022-11-29T00:00:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
@@ -25,7 +25,7 @@ all_day: true
 publishDate: "2022-04-08T00:00:00Z"
 
 authors: [Martin Jullum]
-tags: [Explainable AI]
+tags: [strompriser]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -41,7 +41,7 @@ featured: false
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "slides/220408_NAV_Global.pdf"
+url_slides: "slides/221129_SAMBAmeeting_strømstøttemodellering_norsk.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -57,5 +57,5 @@ url_video: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- Explainable AI
+- strompriser
 ---
