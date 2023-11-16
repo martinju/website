@@ -1,5 +1,5 @@
 ---
-title: Strømstøttemodellering ++
+title: Strømstøttemodellering ++ (in norwegian)
 
 event: Norwegian Computing Center, SAMBA, Internal Seminar
 #event_url: 

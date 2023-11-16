@@ -1,5 +1,5 @@
 ---
-title: BigInsight: Deteksjon av hvitvasking med algoritmer og kunstig intelligens (AI)
+title: BigInsight- Deteksjon av hvitvasking med algoritmer og kunstig intelligens (AI) (in norwegian)
 
 event: Nordisk Ministerråd
 #event_url: 
